@@ -1,0 +1,109 @@
+#mainHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 5px 2px darkgrey;
+}
+#paraHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#headerLink{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 0px;
+}
+#logoPart{
+    line-height: 0;
+    padding-right: 60px;
+}
+#stories{
+    font-style: italic;
+    font-weight: 500;
+}
+#para{
+    padding-right: 60px;
+    width: 20vw;
+    color: rgba(0,0,0,.6);
+}
+#mainPage{
+    /* border: 2px solid #0096ff; */
+    border-radius: 30px;
+    width: auto;
+    padding: 10px;
+    color: #fff;
+    outline: none;
+    font-family: Raleway,sans-serif;
+    font-size: 14px;
+    /* font-weight: 600; */
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .03em;
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    text-decoration: none;
+}
+#sectionHeading{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 3rem 15rem;
+    font-family: Raleway,sans-serif;
+}
+#filter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 15rem;
+}
+.filterHeading{
+    font-weight: 500;
+}
+#btns{
+    margin: 0px 15rem;
+}
+.btn{
+    text-transform: capitalize;
+    width: auto;
+    font-size: .75em;
+    color: #0084ff;
+    padding: 6px 16px;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #0084ff;
+    color: white;
+}
+#cardBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0px auto;
+}
+.text{
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+.name{
+    color: #0048ff;
+}
+.ACard{
+    width: 18vw;
+    /* padding: 30px 1px; */
+    margin: 10px 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px darkgrey;
+    border-radius: 5px;
+}
+#logoHeading{
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    font-weight: 900;
+    color: #0084ff
+}
